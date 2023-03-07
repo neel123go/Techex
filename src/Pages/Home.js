@@ -7,6 +7,7 @@ import Achievements from '../Sections/Achievements';
 import TeamMembers from '../Sections/TeamMembers';
 import OurProjects from '../Sections/OurProjects';
 import BrandLogo from '../Sections/BrandLogo';
+import PricingPlan from '../Sections/PricingPlan';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <TeamMembers />
             <OurProjects />
             <BrandLogo />
+            <PricingPlan />
         </>
     )
 }
