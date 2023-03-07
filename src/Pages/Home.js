@@ -5,6 +5,7 @@ import HowCanHelpYou from '../Sections/HowCanHelpYou';
 import PopularItServices from '../Sections/PopularItServices';
 import Achievements from '../Sections/Achievements';
 import TeamMembers from '../Sections/TeamMembers';
+import OurProjects from '../Sections/OurProjects';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <PopularItServices />
             <Achievements />
             <TeamMembers />
+            <OurProjects />
         </>
     )
 }
