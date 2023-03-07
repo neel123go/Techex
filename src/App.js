@@ -1,14 +1,12 @@
 import './App.css';
 import Header from './Components/Header';
-import Banner from './Sections/Banner';
-import HowCanHelpYou from './Sections/HowCanHelpYou';
+import Home from './Pages/Home';
 
 function App() {
   return (
     <>
       <Header />
-      <Banner />
-      <HowCanHelpYou />
+      <Home />
     </>
   );
 }
