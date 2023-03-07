@@ -1,5 +1,4 @@
 import React from 'react';
-// import Hero1 from '../assets/img/home1/hero1.jpg';
 
 const Banner = () => {
     return (
