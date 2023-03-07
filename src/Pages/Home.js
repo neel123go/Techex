@@ -9,6 +9,7 @@ import OurProjects from '../Sections/OurProjects';
 import BrandLogo from '../Sections/BrandLogo';
 import PricingPlan from '../Sections/PricingPlan';
 import Review from '../Sections/Review';
+import LatestNewsAndBlogs from '../Sections/LatestNewsAndBlogs';
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <BrandLogo />
             <PricingPlan />
             <Review />
+            <LatestNewsAndBlogs />
         </>
     )
 }
