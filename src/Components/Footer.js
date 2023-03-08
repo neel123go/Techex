@@ -41,7 +41,7 @@ const Footer = () => {
                         <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid recent_post_widget">
                                 <div className="wid-title">
-                                    <h4>News News</h4>
+                                    <h4>Latest News</h4>
                                 </div>
                                 <div className="recent-post-list">
                                     <div className="single-recent-post">
@@ -63,7 +63,6 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <!-- /.col-lg-3 - single-footer-wid --> */}
                         <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid contact_widget_2">
                                 <div className="wid-title">
@@ -105,7 +104,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="container text-center">
                     <div className="footer-bottom-content">
-                        © 2021 <Link to="index.html">Techex</Link>. All Rights Reserved
+                        © 2023 <Link to="index.html">Techex</Link>. All Rights Reserved
                     </div>
                 </div>
             </div>

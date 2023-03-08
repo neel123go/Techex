@@ -2,34 +2,34 @@ import React from 'react';
 
 const Achievements = () => {
   return (
-    <section class="funfact-wrapper text-white">
-      <div class="container">
-        <div class="funfact-content-grid bg-cover"
+    <section className="funfact-wrapper text-white">
+      <div className="container">
+        <div className="funfact-content-grid bg-cover"
           style={{ backgroundImage: `url(../assets/img/funfact-line.png)` }}>
-          <div class="single-funfact-item">
-            <div class="icon">
-              <i class="fal fa-gem"></i>
+          <div className="single-funfact-item">
+            <div className="icon">
+              <i className="fal fa-gem"></i>
             </div>
             <h3>368</h3>
             <p>Project Completed</p>
           </div>
-          <div class="single-funfact-item">
-            <div class="icon">
-              <i class="fal fa-drafting-compass"></i>
+          <div className="single-funfact-item">
+            <div className="icon">
+              <i className="fal fa-drafting-compass"></i>
             </div>
             <h3>785</h3>
             <p>Expert Consultants</p>
           </div>
-          <div class="single-funfact-item">
-            <div class="icon">
-              <i class="fal fa-stars"></i>
+          <div className="single-funfact-item">
+            <div className="icon">
+              <i className="fal fa-stars"></i>
             </div>
             <h3>896</h3>
             <p>5 Stars Rating</p>
           </div>
-          <div class="single-funfact-item">
-            <div class="icon">
-              <i class="fal fa-trophy-alt"></i>
+          <div className="single-funfact-item">
+            <div className="icon">
+              <i className="fal fa-trophy-alt"></i>
             </div>
             <h3>125</h3>
             <p>Awards Winning</p>
