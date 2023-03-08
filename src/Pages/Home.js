@@ -10,6 +10,7 @@ import BrandLogo from '../Sections/BrandLogo';
 import PricingPlan from '../Sections/PricingPlan';
 import Review from '../Sections/Review';
 import LatestNewsAndBlogs from '../Sections/LatestNewsAndBlogs';
+import FreeConsolations from '../Sections/FreeConsolations';
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
             <PricingPlan />
             <Review />
             <LatestNewsAndBlogs />
+            <FreeConsolations />
         </>
     )
 }
