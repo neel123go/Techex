@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import About from './Pages/About';
+import CaseStudy from './Pages/CaseStudy';
 import Home from './Pages/Home';
 import Services from './Pages/Services';
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/services' element={<Services />} />
+        <Route path='/case-study' element={<CaseStudy />} />
       </Routes>
       <Footer />
     </>

@@ -4,7 +4,6 @@ import Logo from '../assets/img/logo.png';
 
 const Header = () => {
     const [menu, setMenu] = useState(false);
-    const [pageSubMenu, setPageSubMenu] = useState(false);
 
     return (
 
@@ -26,15 +25,7 @@ const Header = () => {
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="about">About</Link> </li>
                                     <li><Link to="services">Services</Link></li>
-                                    <li><Link to="#">Pages <i className="fas fa-angle-down"></i></Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to="">case grid</Link></li>
-                                            <li><Link to="">case details</Link></li>
-                                            <li><Link to="">faq</Link></li>
-                                            <li><Link to="">team</Link></li>
-                                            <li><Link to="">case two</Link></li>
-                                        </ul>
-                                    </li>
+                                    <li><Link to="case-study">Case Study </Link></li>
                                     <li><Link to="news.html">News</Link></li>
                                     <li><Link to="contact.html">Contact</Link></li>
                                 </ul>
@@ -58,19 +49,10 @@ const Header = () => {
 
                                     <nav className="sidebar-nav">
                                         <ul className="metismenu" id="mobile-menu">
-                                            <li><Link className="has-arrow" to="#">Homes</Link></li>
+                                            <li><Link to="#">Homes</Link></li>
                                             <li><Link to="about.html">about</Link></li>
                                             <li><Link to="services.html">services</Link></li>
-                                            <li>
-                                                <Link className="has-arrow" onClick={() => setPageSubMenu(!pageSubMenu)} to="#">Pages</Link>
-                                                {pageSubMenu ? <ul className="sub-menu">
-                                                    <li><Link to="faq.html">faq</Link></li>
-                                                    <li><Link to="services-details.html">services details</Link></li>
-                                                    <li><Link to="team.html">Team</Link></li>
-                                                    <li><Link to="cases-grid.html">Case Grid</Link></li>
-                                                    <li><Link to="case-2.html">Case Grid 2</Link></li>
-                                                </ul> : ''}
-                                            </li>
+                                            <li><Link to="#">Pages</Link></li>
                                             <li><Link to="news.html">News</Link></li>
                                             <li><Link to="contact.html">Contact</Link></li>
                                         </ul>
