@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Achievements = () => {
+const Achievements = ({ extraClass }) => {
   return (
-    <section className="funfact-wrapper text-white">
+    <section className={`funfact-wrapper text-white ${extraClass}`}>
       <div className="container">
         <div className="funfact-content-grid bg-cover"
           style={{ backgroundImage: `url(../assets/img/funfact-line.png)` }}>

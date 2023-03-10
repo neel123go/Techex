@@ -19,7 +19,7 @@ const Home = () => {
             <HowCanHelpYou />
             <AboutCompany />
             <PopularItServices />
-            <Achievements />
+            <Achievements extraClass="" />
             <TeamMembers />
             <OurProjects />
             <BrandLogo />
