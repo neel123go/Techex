@@ -1,9 +1,9 @@
 import React from 'react';
 
-const TopBanner = ({ pageName, page }) => {
+const TopBanner = ({ pageName, page, imagePath }) => {
     return (
         <section class="page-banner-wrap bg-cover top-banner"
-            style={{ backgroundImage: `url(../assets/img/page-banner.jpg)` }}>
+            style={{ backgroundImage: `url(../${imagePath})` }}>
             <div class="banner-text">{pageName}</div>
             <div class="container">
                 <div class="row align-items-center">

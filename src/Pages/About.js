@@ -12,7 +12,7 @@ import WhyChooseUs from '../Sections/WhyChooseUs';
 const About = () => {
     return (
         <>
-            <TopBanner pageName="About" page="About Us" />
+            <TopBanner pageName="About" page="About Us" imagePath="assets/img/page-banner-1.jpg" />
             <AboutUs />
             <WhyChooseUs />
             <TeamMembers />
