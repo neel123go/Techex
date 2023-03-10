@@ -16,7 +16,7 @@ const Header = () => {
                     <div className="row align-items-center">
                         <div className="col-6 col-sm-5 col-xl-2">
                             <div className="logo">
-                                <Link to="index.html">
+                                <Link to="/">
                                     <img src={Logo} alt="logo" />
                                 </Link>
                             </div>
@@ -24,7 +24,7 @@ const Header = () => {
                         <div className="col-xl-7 d-none d-xl-block">
                             <div className="main-menu">
                                 <ul>
-                                    <li><Link href="#">Home <i className="fas fa-angle-down"></i></Link>
+                                    <li><Link to="/">Home <i className="fas fa-angle-down"></i></Link>
                                         <ul className="sub-menu">
                                             <li><Link to="">home 1</Link></li>
                                             <li><Link to="">home 2</Link></li>
@@ -34,7 +34,7 @@ const Header = () => {
                                             <li><Link to="">home 6</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="about.html">About</Link> </li>
+                                    <li><Link to="about">About</Link> </li>
                                     <li><Link to="services.html">Services</Link></li>
                                     <li><Link to="#">Pages <i className="fas fa-angle-down"></i></Link>
                                         <ul className="sub-menu">
