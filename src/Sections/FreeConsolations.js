@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FreeConsolations = () => {
   return (
@@ -11,10 +12,10 @@ const FreeConsolations = () => {
               <h1>Ready To Get Free Consulations For <br /> Any Kind Of It Solutions ? </h1>
             </div>
             <div className="col-xl-5 col-12 text-center text-xl-right">
-              <a href="contact.html" className="theme-btn mt-4 mt-xl-0">Get a quote <i
-                className="fas fa-arrow-right"></i></a>
-              <a href="services-details.html" className="ml-sm-3 mt-4 mt-xl-0 theme-btn minimal-btn">read more <i
-                className="fas fa-arrow-right"></i></a>
+              <Link to="contact-us" className="theme-btn mt-4 mt-xl-0">Get a quote <i
+                className="fas fa-arrow-right"></i></Link>
+              <Link to="services-details" className="ml-sm-3 mt-4 mt-xl-0 theme-btn minimal-btn">read more <i
+                className="fas fa-arrow-right"></i></Link>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="row justify-content-between">
                         <div className="col-md-6 col-xl-3 col-12 pr-xl-4">
                             <div className="single-footer-wid site_footer_widget newsletter_widget">
-                                <Link to="index.html">
+                                <Link to="/">
                                     <img src="assets/img/logo.png" alt="" />
                                 </Link>
                                 <p className="mt-4">Sed ut perspiciatis unde omnis natus voluptatem accusa ntiumy doloremque
@@ -29,11 +29,10 @@ const Footer = () => {
                                     <h4>Company</h4>
                                 </div>
                                 <ul>
-                                    <li><Link to="about.html">About Us</Link></li>
-                                    <li><Link to="about.html">Company History</Link></li>
-                                    <li><Link to="contact.html">Need a Career</Link></li>
-                                    <li><Link to="project-details.html">Working Process</Link></li>
-                                    <li><Link to="news.html">Blog Post</Link></li>
+                                    <li><Link to="about">About Us</Link></li>
+                                    <li><Link to="about">Company History</Link></li>
+                                    <li><Link to="contact-us">Need a Career</Link></li>
+                                    <li><Link to="blogs">Blog Post</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -104,7 +103,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="container text-center">
                     <div className="footer-bottom-content">
-                        © 2023 <Link to="index.html">Techex</Link>. All Rights Reserved
+                        © 2023 <Link to="/">Techex</Link>. All Rights Reserved
                     </div>
                 </div>
             </div>

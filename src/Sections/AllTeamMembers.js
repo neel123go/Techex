@@ -20,7 +20,7 @@ const AllTeamMembers = () => {
                             <div class="member-img bg-cover bg-center" style={{ backgroundImage: `url(../assets/img/team/team1.jpg)` }}>
                             </div>
                             <div class="member-bio">
-                                <h4><Link to="team-details.html">Wallace S. Camacho</Link></h4>
+                                <h4><Link to="team-details">Wallace S. Camacho</Link></h4>
                                 <p>Business Manager</p>
                             </div>
                             <div class="social-profile">
@@ -36,7 +36,7 @@ const AllTeamMembers = () => {
                             <div class="member-img bg-cover bg-center" style={{ backgroundImage: `url(../assets/img/team/team2.jpg)` }}>
                             </div>
                             <div class="member-bio">
-                                <h4><Link to="team-details.html">Lawrence Pacheco</Link></h4>
+                                <h4><Link to="team-details">Lawrence Pacheco</Link></h4>
                                 <p>Web Developer</p>
                             </div>
                             <div class="social-profile">
@@ -52,7 +52,7 @@ const AllTeamMembers = () => {
                             <div class="member-img bg-cover bg-center" style={{ backgroundImage: `url(../assets/img/team/team3.jpg)` }}>
                             </div>
                             <div class="member-bio">
-                                <h4><Link to="team-details.html">Timothy L. Figueroa</Link></h4>
+                                <h4><Link to="team-details">Timothy L. Figueroa</Link></h4>
                                 <p>Business Manager</p>
                             </div>
                             <div class="social-profile">
@@ -68,7 +68,7 @@ const AllTeamMembers = () => {
                             <div class="member-img bg-cover bg-center" style={{ backgroundImage: `url(../assets/img/team/team4.jpg)` }}>
                             </div>
                             <div class="member-bio">
-                                <h4><Link to="team-details.html">Michael L. Branch</Link></h4>
+                                <h4><Link to="team-details">Michael L. Branch</Link></h4>
                                 <p>Product Manager</p>
                             </div>
                             <div class="social-profile">
@@ -84,7 +84,7 @@ const AllTeamMembers = () => {
                             <div class="member-img bg-cover bg-center" style={{ backgroundImage: `url(../assets/img/team/team5.jpg)` }}>
                             </div>
                             <div class="member-bio">
-                                <h4><Link to="team-details.html">Salman L. Branch</Link></h4>
+                                <h4><Link to="team-details">Salman L. Branch</Link></h4>
                                 <p>Product Manager</p>
                             </div>
                             <div class="social-profile">
@@ -100,7 +100,7 @@ const AllTeamMembers = () => {
                             <div class="member-img bg-cover bg-center" style={{ backgroundImage: `url(../assets/img/team/team6.jpg)` }}>
                             </div>
                             <div class="member-bio">
-                                <h4><Link to="team-details.html">Rahul L. Branch</Link></h4>
+                                <h4><Link to="team-details">Rahul L. Branch</Link></h4>
                                 <p>Product Manager</p>
                             </div>
                             <div class="social-profile">
@@ -116,7 +116,7 @@ const AllTeamMembers = () => {
                             <div class="member-img bg-cover bg-center" style={{ backgroundImage: `url(../assets/img/team/team7.jpg)` }}>
                             </div>
                             <div class="member-bio">
-                                <h4><Link to="team-details.html">Joy Ponna</Link></h4>
+                                <h4><Link to="team-details">Joy Ponna</Link></h4>
                                 <p>Product Manager</p>
                             </div>
                             <div class="social-profile">
@@ -132,7 +132,7 @@ const AllTeamMembers = () => {
                             <div class="member-img bg-cover bg-center" style={{ backgroundImage: `url(../assets/img/team/team8.jpg)` }}>
                             </div>
                             <div class="member-bio">
-                                <h4><Link to="team-details.html">Pongta Choduri</Link></h4>
+                                <h4><Link to="team-details">Pongta Choduri</Link></h4>
                                 <p>Product Manager</p>
                             </div>
                             <div class="social-profile">
