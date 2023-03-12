@@ -4,10 +4,10 @@ import BrandLogo from '../Sections/BrandLogo';
 import FreeConsolations from '../Sections/FreeConsolations';
 import OurProjects from '../Sections/OurProjects';
 
-const CaseStudy = () => {
+const Portfolio = () => {
     return (
         <>
-            <TopBanner pageName="Case" page="Case Study" imagePath="assets/img/page-banner-1.jpg" />
+            <TopBanner pageName="Portfolio" page="Portfolio Projects" imagePath="assets/img/page-banner-1.jpg" />
             <OurProjects />
             <BrandLogo />
             <FreeConsolations />
@@ -15,4 +15,4 @@ const CaseStudy = () => {
     );
 };
 
-export default CaseStudy;
+export default Portfolio;
