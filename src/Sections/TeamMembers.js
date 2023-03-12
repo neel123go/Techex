@@ -13,7 +13,7 @@ const TeamMembers = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-6 mt-3 mt-md-0 text-md-right">
-                        <Link to="team.html" className="theme-btn off-white">View all Member <i
+                        <Link to="team" className="theme-btn off-white">View all Member <i
                             className="fas fa-arrow-right"></i></Link>
                     </div>
                 </div>
